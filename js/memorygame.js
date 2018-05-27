@@ -73,6 +73,8 @@ function draw() {
   //First, generate the rectangles. Since there are 8 countries, 16 rectangles will have to be generated.
   const spacing = 100;
 
+  let counter = 0;
+
   for (let row = 0; row < 4; row++) {
     for (let col = 0; col < 4; col++) {
       let x = map(col, 0, 3, cWidth * .1, cWidth - cWidth * .1); // x position of rectangle //domain is allowable domain of first value, col
@@ -80,6 +82,7 @@ function draw() {
       //map only returns the mapped value of the first argument
       console.log(x);
       rect(x, y, 100, 100);
+      counter++;
     }
   }
 
