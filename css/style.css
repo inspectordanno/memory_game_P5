@@ -1,0 +1,29 @@
+html, body {width: 100%; height: 100%; margin: 0; padding: 0; box-sizing: border-box;}
+
+#overall_container {
+  display: flex;
+  height: 100%;
+}
+
+#cnv_container {
+  flex: 7;
+  background: lightgreen;
+}
+
+#directions {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background: lightblue;
+}
+
+#headline {
+  margin-top: 30%;
+}
+
+#howtoplay {
+  margin-left: 5%;
+  margin-right: 5%;
+}
